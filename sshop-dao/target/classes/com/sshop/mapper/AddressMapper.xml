@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sshop.dao.AddressDao">
+
+	<resultMap id="resultMap" type="Address">
+	    <result property="id" column="id"/>
+	    <result property="contacterName" column="contacter_name"/>
+	    <result property="postalCode" column="postal_code"/>
+	    <result property="phoneNumber" column="phone_number"/>
+	    <result property="detailedAddress" column="detailed_address"/>
+	    <result property="isDefault" column="isdefault"/>
+	    <association property="province" javaType="Province">
+	        <result property="provinceName" column="province_name"/>
+	    </association>
+	    <association property="city" javaType="City">
+	        <result property="cityName" column="city_name"/>
+	    </association>
+	    <association property="area" javaType="Area">
+	        <result property="areaName" column="area_name"/>
+	    </association>
+	</resultMap>
+	
+	<sql id="Address_Column">
+		t1.id, t1.contacter_name, t1.province_id, t1.city_id, t1.area_id, t1.user_id,
+		t1.postal_code, t1.phone_number, t1.detailed_address, t1.isdefault,
+		t2.province_name, t3.city_name, t4.area_name
+	</sql>
+
+    <insert id="insert">
+	    insert into ADDRESS (
+		    contacter_name, 
+		    province_id,
+		    city_id, 
+		    area_id, 
+		    user_id,
+	    	postal_code, 
+	    	phone_number,
+	    	detailed_address 
+	    ) values ( 
+	    	#{contacterName}, 
+	    	#{provinceId},
+	        #{cityId}, 
+	        #{areaId}, 
+	        #{userId},
+	        #{postalCode}, 
+	        #{phoneNumber}, 
+	        #{detailedAddress}
+	    )
+    </insert>
+	<select id="findUserAddress" resultMap="resultMap">
+        SELECT
+            <include refid="Address_Column"/>
+        FROM
+            ADDRESS t1,
+            ADDRESS_PROVINCE t2,
+            ADDRESS_CITY t3,
+            ADDRESS_AREA t4
+        WHERE
+        t1.province_id = t2.province_id
+        AND t1.city_id = t3.city_id
+        AND t1.area_id = t4.area_id
+        AND t1.user_id = #{userId}
+    </select>
+
+    <select id="getByUserMobile" resultMap="resultMap">
+            SELECT
+                t1.*,
+                t3.province_name AS provinceName,
+                t4.city_name AS cityName,
+                t5.area_name AS areaName
+            FROM
+                ADDRESS t1,
+                USER t2,
+                ADDRESS_PROVINCE t3,
+                ADDRESS_CITY t4,
+                ADDRESS_AREA t5
+            WHERE
+                t1.user_id = t2.id
+            AND t1.province_id = t3.province_id
+            AND t1.city_id = t4.city_id
+            AND t1.area_id = t5.area_id
+            AND t2.mobile = #{mobile}
+        </select>
+        
+        <select id="getIdByAddress" resultMap="resultMap">
+            SELECT
+                t1.*,
+                t3.province_name AS provinceName,
+                t4.city_name AS cityName,
+                t5.area_name AS areaName
+            FROM
+                ADDRESS t1,
+                USER t2,
+                ADDRESS_PROVINCE t3,
+                ADDRESS_CITY t4,
+                ADDRESS_AREA t5
+            WHERE
+                t1.user_id = t2.id
+            AND t1.province_id = t3.province_id
+            AND t1.city_id = t4.city_id
+            AND t1.area_id = t5.area_id
+            AND t1.id = #{id}
+        </select>
+
+        
+    <select id="getByAddressId" resultMap="resultMap">
+            SELECT
+                t1.*,
+                t3.province_name AS provinceName,
+                t4.city_name AS cityName,
+                t5.area_name AS areaName
+            FROM
+                ADDRESS t1,
+                USER t2,
+                ADDRESS_PROVINCE t3,
+                ADDRESS_CITY t4,
+                ADDRESS_AREA t5
+            WHERE
+                t1.user_id = t2.id
+            AND t1.province_id = t3.province_id
+            AND t1.city_id = t4.city_id
+            AND t1.area_id = t5.area_id
+            AND t1.id = #{id}
+        </select>
+
+
+    <delete id="deleteByAddressKey" parameterType="java.lang.Integer">
+        delete from ADDRESS
+        where id = #{id}
+    </delete>
+
+    <update id="updateByAddressKeySelective">
+        update ADDRESS
+        <set>
+            <if test="contacter_name != null">
+                contacter_name = #{contacter_name},
+            </if>
+            <if test="postal_code != null">
+                postal_code = #{postal_code},
+            </if>
+            <if test="phone_number != null">
+                phone_number = #{phone_number},
+            </if>
+            <if test="detailed_address != null">
+                detailed_address = #{detailed_address},
+            </if>
+            <if test="province != null">
+                province_id = #{province.province_id},
+            </if>
+            <if test="city != null">
+                city_id = #{city.city_id},
+            </if>
+            <if test="area != null">
+                area_id = #{area.area_id},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <sql id="columns">
+        id,contacter_name,postal_code,phone_number,detailed_address
+    </sql>
+    <select id="selectAddressId"  resultMap="resultMap">
+        SELECT *
+        FROM ADDRESS
+        WHERE
+        id=#{id}
+    </select>
+    
+    
+    <!-- 设置正常地址 -->
+    <update id="setNormalAddress" parameterType="string">
+        update ADDRESS set isdefault='0' where phone_number=#{mobile}
+     </update>
+    <!-- 设置默认地址 -->
+     <update id="setDefautAddress" parameterType="java.lang.Integer">
+        update ADDRESS set isdefault='1' where id=#{id}
+     </update>
+</mapper>

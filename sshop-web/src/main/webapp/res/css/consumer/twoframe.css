@@ -1,0 +1,54 @@
+.title{
+	background-color:white;width:1280px;margin:15px auto;height:60px;border-top:2px solid #fe5600;
+}
+.title p{
+	font-size:24px;padding:14px;color:#fe5600;font-weight:600;
+}
+.content{
+	background-color:white;width:1280px;margin:15px auto;height:350px;
+}
+.content1{
+	background-color:white;width:1280px;margin:15px auto;height:450px;
+}
+.sbox{
+	width:40%;margin-left:30%;margin-right:30%;height:300px;padding-top:10px;
+}
+.contentin{
+	width:25%;height:350px;float:left;padding-left:100px;padding-top:40px;
+}
+.contentin img{
+	width:150px;height:150px;
+}
+.contentin p{
+	width:150px;height:100px;word-break:break-all;font-size:16px; color:#235fa7;
+}
+.contentin1{
+	width:75%;height:350px;float:left;
+}
+.contentsbox{
+	margin-top:20px;width:700px;height:300px;float:left;background-color:#FFFFF0;border:1px solid #e5e5e5;padding:20px;
+}
+.contentsbox textarea{
+	width:500px;height:150px;
+}
+.contentoutbox{
+	width:40%;margin-right:30%;margin-left:30%;height:100px;
+}
+.p1{
+	font-size:20px;line-height:20px;float:left;
+}
+.p1 select{
+	margin-left:10px;width:150px;height:40px;font-size:17px;
+}
+.pmen{
+	font-size:15px;color:#b2b2b2;margin-left:90px;margin-bottom:10px;width:512px;margin-top:10px;float:left;
+}
+.preason{
+	font-size:20px;width:100px;float:left;
+}
+.ptext{
+	float:left;width:300px;height:150px;
+}
+.pbtn{
+	float:left;margin-top:20px;margin-left:181px;margin-right:181px;width:150px;height:40px;color:white;font-size:18px;background-color:#ffa700;
+}

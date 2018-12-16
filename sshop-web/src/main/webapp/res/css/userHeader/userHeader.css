@@ -1,0 +1,52 @@
+.file_class {
+	width: 150px;
+	height: 50px;
+	background-color: #fe5600;
+	float: left;
+	font-size: 20px;
+	color: #fff;
+}
+.cls_Correct {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(39, 169, 73);
+	float: right;
+	font-size: 20px;
+	color: #fff;
+}
+
+.Original_img {
+	position: relative;
+	height: 400px;
+	width: 400px;
+	border: 1px solid #aaa;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	cursor: move;
+	box-shadow: 4px 4px 12px #B0B0B0;
+}
+
+.Original_img .thumbBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	box-sizing: border-box;
+	border: 1px solid rgb(102, 102, 102);
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.list_img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22%;
+}
+
+.img_span {
+	margin-top: 7%;
+	display: block;
+}

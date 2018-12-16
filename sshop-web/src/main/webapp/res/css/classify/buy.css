@@ -1,0 +1,122 @@
+/*璐瓇绯诲垪*/
+.container{
+	width:100%;height:110px;background-color:#FF5400;
+}
+.box{
+	width:40%;height:100px;margin-left:30%;
+	
+}
+.p1{
+	line-height:100px;
+	text-align:center;
+	color:white;
+	font-size:30px;font-family:Microsoft YaHei;
+}
+/*浜у搧鏍忔�妯″潡*/
+.c1{
+	width:100%;background-color:#FAFAFA;
+}
+.container1{
+	width:1024px;
+	height:2580px;
+	margin:5px auto;
+}
+/*浜у搧*/
+.good{
+	float:left;
+	width:240px;
+	margin-right:16px;
+	height:360px;
+	margin-bottom: 20px;
+}
+.goods{
+	max-width:240px;
+	max-height:250px;
+}
+.goods-image{
+	width:240px;
+	height:250px;
+	background-color:white;
+	border:1px solid #E0E0E0;
+	text-align:center;
+}
+.goods-image a{
+	display:inlie-block;
+	position:relative;
+	top:50px;
+	transform:translateY(-50%);
+}
+.goods-intro{
+	width:250px;
+	height:100px;
+	padding:10px 12px 12px 12px;
+}
+
+.h50{
+	width:100%;height:50px;
+}
+.money{
+	float:left;color:#ef2f23;
+	font-size:24px;line-height:50px;
+}
+.icon{
+	width:48px;
+	height:48px; 
+	float:right;border-radius:50%;
+}
+/*鍒嗛〉鏍�/
+.page{
+	width:530px;
+	height:40px;
+	margin:auto;
+	margin-top:60px;
+}
+.select{
+	color:white;
+}
+.page ul{
+	overflow:hidden;
+}
+.page ul li{
+	float:left;
+	font-size:18px;
+	line-height:40px;
+	list-style-type:none;
+}
+.num{
+	width:40px;
+	text-align: center;
+}
+.num1{
+	width:40px;
+	text-align: center;
+	background-color:#FF5400;
+	color:white;
+}
+.num1 a:link{
+	color:white;
+}
+.num1 a:active{
+	color:white;
+}
+.num1 a:visited{
+	color:white;
+}
+.num a:link{
+	color:black;
+}
+.num a:visited{
+	color:black;
+}
+.num a:active{
+	color:black;
+}
+.turn a:link{
+	color:black;
+}
+.turn a:visited{
+	color:black;
+}
+.turn a:active{
+	color:black;
+}

@@ -1,0 +1,60 @@
+.coadd{
+	width:1280px;height:1050px;border:0px solid black; margin:10px auto;
+}
+.a1{
+	width:1280px;
+}
+.a1a{
+	width:1280px;height:60px;
+}
+.a1a p{
+	font-size:24px;padding-left:5px;line-height:60px;
+}
+.pa1{
+	width:260px;border-bottom:2px solid #ccc;font-size:17px;
+}
+.pa2{
+	font-size:17px;width:260px;word-break:break-all;
+}
+.pa3{
+	font-size:17px;color:#fe5600;
+}
+.spana1{
+	font-size:15px;margin-left:120px;padding:0px 5px;border-radius:5px; background-color:#ccc;color:white;
+}
+.co1{
+	width:100%;height:35px;border-bottom:2px solid #ccc;
+}
+.co1 p{
+	color:#fe5600; font-size:28px;font-family:SimHei;
+}
+.men{
+	width:1280px;height:40px;
+}
+.men p{
+	font-size:24px;padding-left:5px;
+}
+.addbtn{
+	padding:5px 10px;border:1px solid #ccc;
+}
+.addnum{
+	padding:5px 10px;border:1px solid #ccc;width:100px;text-align:center;
+}
+.addnew{
+	width:310px;height:30px;
+}
+.addnew p{
+	font-size:16px;color:#666; padding-left:220px;cursor:pointer;float:left;
+}
+.ddsj{
+	font-size:18px;line-height:60px;padding-left:20px;
+}
+.ddsjinput{
+	width:400px; height:40px;margin-left:10px;border-radius:5px;border:1px solid #ccc;
+}
+.ddcs{
+	font-size:18px;line-height:60px;padding-left:20px;
+}
+.ddcsspan{
+	padding-right:20px;color:#fe5600;
+}

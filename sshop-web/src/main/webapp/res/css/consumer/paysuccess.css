@@ -1,0 +1,73 @@
+/*������*/
+.title1 {
+	background-color: white;
+	width: 1280px;
+	margin: 20px auto;
+	height: 60px;
+	border-bottom: 2px solid #ccc;
+}
+
+.imgbox1 {
+	background: url("../../img/customer/icon_2.gif");
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.title1 p {
+	font-size: 24px;
+	padding: 14px;
+	padding-left: 2px;
+	color: #fe5600;
+	font-weight: 600;
+}
+
+.contenta {
+	background-color: white;
+	width: 1280px;
+	margin: 15px auto;
+	height: 450px;
+}
+
+.moneys {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btncolumn {
+	width: 1024px;
+	margin: 10px auto;
+	height: 50px;
+	background-color: white;
+	margin:0 auto;
+	text-align: center;
+}
+/*给两个btn加样式*/
+.btna1,.btna2{
+	padding: 5px;
+	cursor: pointer;
+	margin-left:200px;
+}
+.btna1 {
+	margin-left:0;
+	background-color: #fe5600;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #fe5600;
+	font-size: 16px;
+	color: white;
+}
+
+.btna2 {
+	
+	background-color: #fe5600;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #fe5600;
+	font-size: 16px;
+	color: white;
+}

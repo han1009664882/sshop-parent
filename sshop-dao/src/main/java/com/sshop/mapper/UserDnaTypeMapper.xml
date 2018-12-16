@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sshop.dao.UserDnaTypeDao" >
+  
+	<sql id="Column_List">    
+  		id, code, fcode, typeName, typeUnit
+  	</sql>
+  
+	<select id="findByFcode" resultType="UserDnaType">
+    	select <include refid="Column_List" /> FROM  USER_DNA_TYPE WHERE fcode=#{code}
+	</select>
+	
+	<select id="findGoodsDefaultDna" resultType="UserDnaType" >
+		SELECT
+			t.id,
+			t.CODE,
+			t.fcode,
+			t.ORDER,
+			t.typeName,
+			t.typeUnit
+		FROM
+			USER_DNA_TYPE t
+		WHERE
+			fcode IN (
+				SELECT
+					typeCode
+				FROM
+					DNA_VALUE
+				WHERE
+					goodCode = #{goodsCode}
+			)
+		order by fcode, t.order 
+	</select>
+	
+	<select id="findGoodsDna" resultType="UserDnaType" >
+		SELECT
+			t.id,
+			t.CODE,
+			t.fcode,
+			t.ORDER,
+			t.typeName,
+			t.typeUnit
+		FROM
+			USER_DNA_TYPE t
+		WHERE
+			CODE IN (
+				SELECT
+					typeCode
+				FROM
+					DNA_VALUE
+				WHERE
+					goodCode = #{goodsCode} AND typePCode!='DNA') 
+		order by fcode, t.order 
+	</select>
+  
+</mapper>

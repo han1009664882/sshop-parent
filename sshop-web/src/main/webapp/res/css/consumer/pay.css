@@ -1,0 +1,83 @@
+.content{
+	width: 1280px;height: 600px;border: 0px solid black;margin: 10px auto;
+}
+.column{
+	width: 100%;height: 40px;border-bottom: 2px solid #ccc;
+}
+.column p{
+	color: #fe5600;font-size: 28px;font-family: SimHei;
+}
+.column1{
+	width:1024px; margin:10px auto;height:100px;background-color:white;
+}
+.imgbox{
+	background:url("../../img/sure_ok.png") no-repeat center center; width:50px;height:50px;float:left;margin-bottom:25px;margin-top:25px;
+}
+.column1 p{
+	float:left;padding-left:10px;line-height:100px;font-size:22px;
+}
+.spanmoney{
+	font-size:20px;color:red;padding-left:24px;
+}
+.column2{
+	width:1024px;height:30px;margin:10px auto;
+}
+.column2 p{
+	padding-left:10px;font-size:18px;
+}
+.column3{
+	width:1024px;height:250px;margin:10px auto;
+}
+.li1{
+	width:1024px;height:60px;border:1px solid #e5e5e5;line-height:60px;padding-left:20px;
+}
+.li2{
+	width:1024px;height:160px;border:1px solid #e5e5e5;padding-left:20px;padding-top:10px;
+}
+.li3{
+	width:1024px;height:260px;border:1px solid #e5e5e5;line-height:60px;padding-left:20px;
+}
+.select{
+	border-color:#ababab;
+}
+.pass{
+	width:100%;/* height:60px; */
+}
+.pass span{
+	margin-right:10px;line-height:60px;
+}
+.pass input{
+	text-align:center;width:180px;height:35px;margin-left:0px;
+}
+
+.1span{
+	padding-left:10px;font-size:18px;
+}
+.mspan{
+	font-size:14px;padding-left:10px;color:#ccc;
+}
+.imgspan{
+	border: 1px solid #ff5500;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 49px;
+    width: 94px;
+    height: 49px;
+}
+.imgspan_select{
+	background: url(/res/img/choose.png) no-repeat right bottom;
+}
+.columna{
+	width:1024px;height:50px;margin:10px auto;
+}
+.payabtn{
+	float:right;width:120px;height:40px;color:white;background-color:#fe5600;font-size:20px;border:1px solid #fe5600;margin-top:5px;
+}
+.paym{
+	float:right;line-height:50px;color:#fe5600; margin-right:15px;font-size:19px;
+}
+.paya{
+	float:right;line-height:50px; margin-right:15px;font-size:15px;
+}
+
+

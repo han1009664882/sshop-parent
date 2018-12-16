@@ -1,0 +1,230 @@
+/*����*/
+.contentorder{
+	width:1280px;height:100%;margin:auto;margin-top:15px;
+	/* 添加属性overflow */
+	overflow:hidden;
+}
+
+/*��ߵ�ѡ����*/
+.left{
+	float: left;width:140px;
+}
+
+.left ul{
+	background-color: white;width: 83%;-webkit-padding-start: 0;-webkit-margin-before: 0; -webkit-margin-after: 0; padding: 10px; margin: 0;text-align: left;line-height: 40px;cursor: default;
+}
+.left ul li{
+	border-bottom: 1px solid #e6e6e6;width:90%;list-style-type:none; margin-left:5%;height: 40px;font-size: 19px;cursor: pointer;
+}
+.left ul li a{
+	cursor:pointer;text-align:center;font-family:STXihei; 
+} 
+.sblue{
+	color:#fe5600;	
+}
+/*�ұߵĲ�Ʒ����*/
+.right{
+	float:right;width:1140px;/* min-height:700px; */
+
+}
+.righttop{
+	margin-bottom: 10px;
+    cursor: auto;
+    width: 99.8%;height:50px;background-color:white;float:left;
+}
+.mpro{
+	cursor:pointer;float:left;font-size:19px;line-height:50px;padding-left:20px;padding-right:20px;
+}
+.select1{
+	border-bottom:3px solid #fe5600;color:#fe5600;
+}
+.title1{
+	margin-bottom:10px;
+	cursor:auto;
+	width:99.8%;
+	line-height:40px;
+	background-color:#f0f0f0;
+	border:1px solid #e5e5e5;
+	overflow:hidden;
+}
+.title1 .titlename{
+	font-size: 17px;
+    padding-left: 44px;
+    padding-right: 75px;
+    float: left;
+    cursor: default;
+	color:#323232;
+	margin-left:0px;
+	margin-right:0px;
+}
+.tcheck{
+	font-size: 17px;width:70px;float:left;
+}
+.tscheck{
+	width:16px;height:16px;margin-top:12px;margin-left:9px;margin-right:5px;float:left;
+}
+.ocheck{
+	width:16px;height:16px;margin-left:-1px;margin-right:5px;float:left;
+}
+.obcheck{
+	width:10px;padding:0px;padding-right:5px;
+}
+.ocheck1{
+	width:16px;height:16px;
+}
+.tfirst{
+	font-size: 17px;
+	padding-left:160px;padding-right:230px;
+	float: left;
+    cursor: default;
+	color:#323232;
+	margin-left:0px;
+	margin-right:0px;
+}
+.tlast{
+	font-size: 17px;
+	padding-left:47px;padding-right:47px;
+	float: left;
+    cursor: default;
+	color:#323232;
+	margin-left:0px;
+	margin-right:0px;
+}
+/*�ӳټ���ͼƬ*/
+.order_loading{
+	width:10%;
+	margin-left:45%;
+	margin-right:45%;
+}
+.order_loading img{
+	margin:auto;
+	padding:0px;
+}
+/*��������*/
+.order1{
+	min-height:760px;
+}
+.ordert{
+	width: 100%;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.span1{
+	margin-left:35px;font-size:15px;color:#818181;
+}
+.ordert tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.ordert tr td{
+	padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+.ordert tr td span{
+	color:#323232;
+	font-size:15px;
+	margin-left:0px;
+    margin-right:25px;
+}
+.imgchat{
+	margin-left:-5px;
+}
+.checkorder{
+	display: block;
+    background-color: #fe5600;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
+    font-size: 16px;
+    margin: auto;
+    padding: 5px 10px;
+	margin-bottom:5px;
+}
+.cancelorder{
+	display: block;
+    background-color: white;
+    color:#323232;
+    border: 0;
+    height: 25px;
+    font-size: 16px;
+    margin: auto;
+    padding: 0px 10px;
+}
+/*��ҳ��*/
+.page{
+	/* 添加居中属性 */
+	margin:0 auto;
+	width:420px;
+	padding-left:10px;
+	height:50px;
+	margin:auto;
+	overflow:hidden;
+}
+.select{
+	color:white;
+}
+.page ul li{
+	float:left;
+	font-size:18px;
+	line-height:40px;
+	list-style-type:none;
+}
+.num{
+	width:40px;
+	padding-left:16px;
+}
+.num1{
+	width:40px;
+	padding-left:16px;
+	background-color:#fe5600;
+	color:white;
+}
+.num1 a:link{
+	color:white;
+}
+.num1 a:active{
+	color:white;
+}
+.num1 a:visited{
+	color:white;
+}
+.num a:link{
+	color:black;
+}
+.num a:visited{
+	color:black;
+}
+.num a:active{
+	color:black;
+}
+.turn a:link{
+	color:black;
+}
+.turn a:visited{
+	color:black;
+}
+.turn a:active{
+	color:black;
+}
+/*ȫѡ�����*/
+.allcheck{
+	margin-bottom: 10px;cursor: auto;width: 99.8%;line-height: 40px;background-color: #f0f0f0;border: 1px solid #e5e5e5;overflow: hidden;
+}
+.deleteall{
+	outline:none;margin-left:40px;
+    background-color:#f0f0f0;color: #323232;border: 0; font-size: 17px;padding: 0px 10px;
+}
+.gotobuy{
+	width:120px;font-size:17px;color:white;background-color:#fe5600;border:0px;outline:none;float:right;
+}
+.gtbmoney{
+	float:right;color:#fe5600;font-size:19px;padding-right:50px;
+}
+.gtbname{
+	float:right;font-size:17px;padding-right:10px;
+}

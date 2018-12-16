@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sshop-core/sshop-core.iml" filepath="$PROJECT_DIR$/sshop-core/sshop-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshop-dao/sshop-dao.iml" filepath="$PROJECT_DIR$/sshop-dao/sshop-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshop-parent.iml" filepath="$PROJECT_DIR$/sshop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshop-service/sshop-service.iml" filepath="$PROJECT_DIR$/sshop-service/sshop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshop-sms/sshop-sms.iml" filepath="$PROJECT_DIR$/sshop-sms/sshop-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshop-web/sshop-web.iml" filepath="$PROJECT_DIR$/sshop-web/sshop-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+.container{
+	background-color:#FAFAFA;width:100%;
+}
+.box{
+	width:1024px;border:0px solid #000;margin-top:5px; margin:auto;
+}
+.rowbox{
+	width:100%;height:250px;
+}
+.left{
+	width:19%;float:left;
+}
+.smallbox{
+	float:left;
+	width:22%;
+	height:230px;
+	margin-left:9.5px;margin-right:9.5px; margin-top:8px;margin-bottom:8px;
+	border:1px solid #E0E0E0;
+}
+.smallbox1{
+	float:left;
+	width:96%;
+	height:230px;
+	margin-right:9.5px; margin-top:8px;margin-bottom:8px;
+	border:1px solid #E0E0E0;
+}
+.smallbox a{
+	display:block;
+	text-align:center;line-height:230px;
+}
+.goods{
+	max-width:98%;
+	max-height:98%;
+	vertical-align:middle;
+}
+.goods1{
+	width:183.5px;
+	height:230px;
+}
+.classify{
+	position:relative;
+	top:-180px;
+	left:30px;
+	width:120px;
+	height:120px;
+	border-top:1px solid white;border-bottom:1px solid white;color:white;
+}
+.money{
+	width:60px;height:30px;background-color:rgba(105,105,105,0.8);color:white;top:-60px;left:10px;position:relative;
+}
+.p1{font-size:24px;margin-left:36px;}
+.p2{font-size:15px;margin-top:5px;}
+.p3{font-size:17px;margin-left:28px;margin-top:10px;}
+.p3 a{color:white;}
+.p3 a:hover{color:white;}
+.p3 a:visited{color:white;}

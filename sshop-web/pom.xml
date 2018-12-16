@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.shsxt</groupId>
+    <artifactId>sshop-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>sshop-web</artifactId>
+  <packaging>war</packaging>
+  <name>sshop-web</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.shsxt</groupId>
+      <artifactId>sshop-service</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.github.axet</groupId>
+      <artifactId>kaptcha</artifactId>
+      <version>0.0.9</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.shsxt.dayusms</groupId>  <!--自定义-->
+        <artifactId>dayusms</artifactId>    <!--自定义-->
+        <version>1.0</version> <!--自定义-->
+        <scope>system</scope> <!--system，类似provided，需要显式提供依赖的jar以后，Maven就不会在Repository中查找它-->
+        <systemPath>${basedir}/lib/taobao-sdk-java-auto_1455552377940-20160607.jar</systemPath> <!--项目根目录下的lib文件夹下-->
+    </dependency> 
+    
+  </dependencies>
+  
+  <build>
+    <finalName>sshop-web</finalName>
+  </build>
+</project>

@@ -1,0 +1,110 @@
+/* 居中容器 */
+.contentorder_middle{
+	width: 1198px;
+	margin: 0 auto;
+}
+/* 左侧区域的导航表 */
+.contentorder_left{
+	width: 120px;
+	height: 360px;
+	background: #fff;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 1px solid #e3e3e3;
+	border-top: 2px solid #fdaa7e;
+}
+.contentorder_left_title_li{
+	margin-top: 16px;
+}
+.contentorder_left div{
+	font-size: 18px;
+	color: #363636;
+}
+.my_order_left li,.contentorder_left_title_li a{
+	display: block;
+	font-size:14px;
+	color:#666;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+.my_order_left li.active,.right ul li.active{
+	color: #fdaa7e;
+}
+/*右侧内容区域的头部标题 */
+.right_top{
+	background: url(/res/img/customer/my_order.png) no-repeat left center;
+	padding-left: 40px;
+	height: 42px;
+	line-height: 42px;
+	margin-bottom: 10px;
+	color: #fdaa7e;
+	font-size: 20px;
+
+}
+/* 具体订单明细中的倒计时 */
+.set_time{
+	float: right;
+}
+/* 取消订单时的弹出框 */
+.drop_order_area{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.5) ;
+	z-index: 100;
+
+}
+.drop_order{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	z-index: 101;
+	width: 392px;
+	height: 222px;
+	border: 1px solid #cdcdcd;
+	background: #fff;
+}
+.drop_order_close{
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	height: 40px;
+	cursor: pointer;
+}
+.drop_order_txt{
+	width: 244px;
+	margin: 40px auto;
+	font-size: 16px;
+
+}
+.drop_order_btn{
+	width: 220px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.drop_order_btn a{
+	display: inline-block;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	border:1px solid #e4e4e4 ;
+	font-size: 16px;
+	background: #fff;
+	text-align: center;
+
+}
+.drop_order_sure{
+	float: left;
+}
+.drop_order_no{
+	float: right;
+}
+.drop_order_btn a:hover{
+	background: #ff5500;
+	color: #fff;
+}
