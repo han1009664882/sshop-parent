@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sshop-core" />
-        <module name="sshop-dao" />
         <module name="sshop-service" />
+        <module name="sshop-dao" />
+        <module name="sshop-core" />
         <module name="sshop-sms" />
         <module name="sshop-web" />
       </profile>
@@ -21,5 +21,14 @@
       <module name="sshop-sms" target="1.6" />
       <module name="sshop-web" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sshop-core" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar;$PROJECT_DIR$/sshop-core/lib/taobao-sdk-java-auto_1455552377940-20160607.jar" />
+      <module name="sshop-dao" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar;$PROJECT_DIR$/sshop-dao/lib/taobao-sdk-java-auto_1455552377940-20160607.jar" />
+      <module name="sshop-service" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar;$PROJECT_DIR$/sshop-service/lib/taobao-sdk-java-auto_1455552377940-20160607.jar" />
+      <module name="sshop-sms" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar;$PROJECT_DIR$/sshop-sms/lib/taobao-sdk-java-auto_1455552377940-20160607.jar" />
+      <module name="sshop-web" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar;$PROJECT_DIR$/sshop-web/lib/taobao-sdk-java-auto_1455552377940-20160607.jar" />
+    </option>
   </component>
 </project>

@@ -1,162 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d85b8c7b-f5f8-4037-881b-cd16cf4ac69e" name="Default" comment="shop java高级项目">
-      <change beforePath="$PROJECT_DIR$/sshop-core/src/main/java/Ognl.java" afterPath="$PROJECT_DIR$/sshop-core/src/main/java/Ognl.java" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sshop_web_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sshop_web_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sshop_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sshop_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_taobao_sdk_java_auto_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_taobao_sdk_java_auto_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_7_0_42.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_7_0_42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_7_0_42.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_7_0_42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_14_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_14_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_9_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_9_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/sshop-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-core/sshop-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/Ognl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/BaseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/BaseQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/BaseVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/base/ResultInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/GoodsStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/ImagesType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/PayContant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/QueryGoodsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/constant/RedisKeyContant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/dto/PayCallbackParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/dto/SmsInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/exception/LoginBizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/exception/ParamException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/exception/PayException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/DnaValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/GoodsCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/GoodsDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/GoodsPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/OrderDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/Province.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/UserDnaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/model/log/PayErrorLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/query/GoodsQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/AssertUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/CookieUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/LoginUserUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/MathUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/UserIDBase64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/Hex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/InvalidBase64CharacterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/PayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/util/pay/Utf8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/BaseOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/DoBuyVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/GoodsCategoryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/GoodsDetailVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/GoodsVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/classes/com/sshop/core/vo/UserLoginIdentity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-core/target/sshop.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/sshop-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-dao/sshop-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/GoodsCategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/GoodsDetailDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/GoodsPartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/ImagesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/OrderDetailDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/OrdersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/ProducerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/ProvinceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/dao/UserDnaTypeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/AddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/GoodsDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/GoodsPartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/ImageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/OrderDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/ProvinceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/UserDnaTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/classes/com/sshop/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-dao/target/sshop.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/sshop-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-service/sshop-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/GoodsCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/GoodsDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/ImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/ProducerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/ProvinceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/classes/com/sshop/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-service/target/sshop.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/sshop-sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-sms/sshop-sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/com/sshop/sms/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/com/sshop/sms/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/com/sshop/sms/log/SmsLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/classes/rabbitmq.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/amqp-client-3.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/commons-codec-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/fastjson-1.2.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/filters-2.0.235.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/freemarker-2.3.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/http-client-1.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/httpclient-4.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/httpcore-4.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jackson-core-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jackson-core-asl-1.9.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jackson-databind-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jackson-mapper-asl-1.9.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jcl-over-slf4j-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/kaptcha-0.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/mongo-java-driver-2.14.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/mybatis-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/mybatis-paginator-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/mybatis-spring-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/mysql-connector-java-5.1.39.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/slf4j-log4j12-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-amqp-1.6.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-aop-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-beans-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-context-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-context-support-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-core-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-data-commons-1.12.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-data-keyvalue-1.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-data-mongodb-1.9.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-data-redis-1.7.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-expression-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-jdbc-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-messaging-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-oxm-4.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-rabbit-1.6.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-retry-1.1.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-test-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-tx-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-web-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/spring-webmvc-4.3.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/sshop-core-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/taobao-sdk-java-auto-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/tomcat-jdbc-7.0.42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/lib/tomcat-juli-7.0.42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/sshop-core-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-sms/target/sshop-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/sshop-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sshop-web/sshop-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/annotation/IsLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/KaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/MacroController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/PayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/ProjectExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/ProvinceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/SmsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/com/sshop/proxy/CheckIsLoginProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/mybatis-conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/rabbitmq.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/classes/spring-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/test-classes/com/sshop/controller/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/test-classes/com/sshop/controller/SmsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/test-classes/com/sshop/controller/TestAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshop-web/target/test-classes/com/sshop/controller/TestAddressDao.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/sshop-service/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/sshop-core/target/" />
-    <ignored path="$PROJECT_DIR$/sshop-web/target/" />
-    <ignored path="$PROJECT_DIR$/sshop-sms/target/" />
-    <ignored path="$PROJECT_DIR$/sshop-dao/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Ognl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sshop-core/src/main/java/Ognl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-              <folding>
-                <element signature="e#415#444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sshop-core/src/main/java/Ognl.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\install\m2\repository" />
-        <option name="mavenHome" value="D:/install/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\install\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/soft/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/soft/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectId" id="1oH2xUGr1MjzHrF6kOSacteR3EO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sshop-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sshop-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sshop-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sshop-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sshop-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -164,80 +334,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,14 +397,40 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -321,69 +443,36 @@
       <option name="presentableId" value="Default" />
       <updated>1544721419691</updated>
       <workItem from="1544721446929" duration="874000" />
+      <workItem from="1612929444711" duration="851000" />
+      <workItem from="1612930310943" duration="43000" />
+      <workItem from="1612930367093" duration="318000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="874000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25038168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sshop-core/src/main/java/Ognl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding>
-            <element signature="e#415#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="405" y="166" key="SettingsEditor" timestamp="1612930353682">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="405" y="166" key="SettingsEditor/0.25.1792.1010@0.25.1792.1010" timestamp="1612930353682" />
+    <state x="596" y="241" width="599" height="578" key="find.popup" timestamp="1612929890987">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="596" y="241" width="599" height="578" key="find.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1612929890987" />
   </component>
   <component name="masterDetails">
     <states>

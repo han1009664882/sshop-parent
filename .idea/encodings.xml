@@ -3,10 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sshop-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sshop-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-dao/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sshop-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sshop-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-sms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sshop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sshop-web/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
